@@ -10,7 +10,7 @@ function display(cartProduct) {
     totalPrice = totalPrice + productPrice;
     const tr = document.createElement("tr");
     tr.innerHTML = `
-     <th>${i + 1}</th>
+     <th style="zindex: 12!important;">${i + 1}</th>
      <td>${productName}</td>
      <td>${productPrice}</td>`;
 
